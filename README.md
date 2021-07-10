@@ -2,7 +2,7 @@
 
 The purpose of this analysis is produce six different supervised machine learning learning models to evaluate which model is best when it comes to predicting credit card risk. 
 
-Random oversampling
+### Random oversampling
 
 -	Balanced accuracy score is .640, the model correctly predicted cases as high-risk and low-risk 64% of the time 
 -	the average precision is .99, or 99%, however the model predicted a high number of false positives where 6,546 cases were predicted as high risk but were actually low risk
@@ -13,7 +13,7 @@ Random oversampling
 ![Random_Oversampling_Report](/Resources/Random_Oversampling_Report.png)
 
 
-SMOTE Oversampling
+### SMOTE Oversampling
 
 -	Balanced accuracy score is .651, the model correctly predicted cases as high-risk and low risk 65.1% of the time
 -	The average precision is .99, or 99%, however the model predicted a high number of false positives where 7,566 cases were predicted as high risk but were actually low risk
@@ -24,7 +24,7 @@ SMOTE Oversampling
 ![SMOTE_Oversampling_Report](/Resources/SMOTE_Oversampling_Report.png)
 
 
-Under sampling
+### Under sampling
 
 -	Balanced accuracy score is .651, the model correctly predicted cases as high-risk and low-risk 65.1% of the time.
 -	The average precision is .99 or 99%, however the model predicted a high number of false positive where 5,317 cases were predicted as high risk but were actually low risk
@@ -35,7 +35,7 @@ Under sampling
 ![Undersampling_report.png](/Resources/Undersampling_report.png)
 
 
-Combination (Over and Under) Sampling
+### Combination (Over and Under) Sampling
 
 -	Balanced accuracy score is .544, the model correctly predicted cases as high risk and low risk 54.4% of the time
 -	The average precision is .99% however the model predicted a high number of false positives where 5,317 cases were predicted as high risk but were actually low risk
